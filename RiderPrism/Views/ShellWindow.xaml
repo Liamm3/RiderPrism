@@ -3,10 +3,18 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:local="clr-namespace:RiderPrism.Views"
+        xmlns:prism="http://prismlibrary.com/"
         mc:Ignorable="d"
         Title="ShellWindow" Height="450" Width="800">
     <Grid>
-       <TextBlock Text="Hello from Prism" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
+            <Button Margin="5">Navigate to ModuleA</Button>
+            <Button Margin="5">Navigate to ViewB</Button>
+        </StackPanel>
+        <ContentControl Grid.Row="1" prism:RegionManager.RegionName="ContentRegion" />
     </Grid>
 </Window>

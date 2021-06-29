@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1-windows</TargetFramework>
+        <UseWPF>true</UseWPF>
+        <AssemblyName>ModuleA</AssemblyName>
+        <RootNamespace>ModuleA</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+    </ItemGroup>
+
+</Project>
