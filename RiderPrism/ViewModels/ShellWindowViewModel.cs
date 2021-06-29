@@ -4,16 +4,8 @@ using Prism.Regions;
 
 namespace RiderPrism.ViewModels {
     public class ShellWindowViewModel : BindableBase {
-       private readonly IRegionManager _regionManager;
-       public DelegateCommand<string> NavigateCommand { get; set; }
+        public ShellWindowViewModel() {
 
-       public ShellWindowViewModel(IRegionManager regionManager) {
-           _regionManager = regionManager;
-           NavigateCommand = new DelegateCommand<string>(Navigate);
-       }
-
-       private void Navigate(string uri) {
-           _regionManager.RequestNavigate("ContentRegion", uri);
-       }
-    }
+        }
+   }
 }

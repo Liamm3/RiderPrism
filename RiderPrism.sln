@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiderPrism", "RiderPrism\Ri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{EE5E3C1B-5BF6-45B1-A5B4-768D9C463A04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{B47C38C2-59D8-4F32-B607-81C43FD6EDB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{EE5E3C1B-5BF6-45B1-A5B4-768D9C463A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE5E3C1B-5BF6-45B1-A5B4-768D9C463A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE5E3C1B-5BF6-45B1-A5B4-768D9C463A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47C38C2-59D8-4F32-B607-81C43FD6EDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47C38C2-59D8-4F32-B607-81C43FD6EDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47C38C2-59D8-4F32-B607-81C43FD6EDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47C38C2-59D8-4F32-B607-81C43FD6EDB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

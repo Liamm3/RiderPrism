@@ -1,8 +1,8 @@
 ﻿using System.Windows;
 
 namespace RiderPrism.Views {
-    public partial class ShellWindow : Window {
-        public ShellWindow() {
+    public partial class NewShell : Window {
+        public NewShell() {
             InitializeComponent();
         }
     }
