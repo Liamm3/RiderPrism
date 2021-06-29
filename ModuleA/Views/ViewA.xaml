@@ -7,7 +7,8 @@
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-        <TextBlock Text="Hello From ViewA!" FontSize="32" HorizontalAlignment="Center" />
-    </Grid>
+    <StackPanel>
+        <TextBlock Text="{Binding Text}" FontSize="32" HorizontalAlignment="Center" />
+        <TextBlock Text="{Binding PageViews}" FontSize="20" HorizontalAlignment="Center" />
+    </StackPanel>
 </UserControl>
