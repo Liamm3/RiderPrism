@@ -17,7 +17,8 @@ namespace Person.ViewModels {
         }
 
         public bool IsNavigationTarget(NavigationContext navigationContext) {
-            return true;
+            var person = navigationContext.Parameters.GetValue<Person>("person");
+            return person.Id == Person.Id;
         }
 
         public void OnNavigatedFrom(NavigationContext navigationContext) {
