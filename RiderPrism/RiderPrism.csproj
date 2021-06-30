@@ -11,6 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\DialogSample\DialogSample.csproj" />
       <ProjectReference Include="..\ModuleA\ModuleA.csproj" />
       <ProjectReference Include="..\Person\Person.csproj" />
     </ItemGroup>

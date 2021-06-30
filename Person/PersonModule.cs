@@ -8,7 +8,6 @@ namespace Person {
     public class PersonModule : IModule {
 
         public PersonModule(IRegionManager regionManager) {
-            regionManager.RegisterViewWithRegion("ContentRegion", typeof(PersonListView));
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry) {

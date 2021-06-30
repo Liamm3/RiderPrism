@@ -1,6 +1,4 @@
-﻿using Prism.Commands;
-using Prism.Mvvm;
-using Prism.Regions;
+﻿using Prism.Mvvm;
 
 namespace RiderPrism.ViewModels {
     public class ShellWindowViewModel : BindableBase {
