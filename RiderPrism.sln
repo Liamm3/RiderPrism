@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogSample", "DialogSample\DialogSample.csproj", "{A33FC6E1-E6E6-44FC-B046-10C3AAE23A73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiderPrism.Core", "RiderPrism.Core\RiderPrism.Core.csproj", "{1FBEAA73-0D0B-4E68-B844-F9906B23C10F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{A33FC6E1-E6E6-44FC-B046-10C3AAE23A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A33FC6E1-E6E6-44FC-B046-10C3AAE23A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A33FC6E1-E6E6-44FC-B046-10C3AAE23A73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBEAA73-0D0B-4E68-B844-F9906B23C10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBEAA73-0D0B-4E68-B844-F9906B23C10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBEAA73-0D0B-4E68-B844-F9906B23C10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBEAA73-0D0B-4E68-B844-F9906B23C10F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,8 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Services.Dialogs;
+using RiderPrism.Core;
+using IDialogServiceExtensions = RiderPrism.Core.IDialogServiceExtensions;
 
 namespace DialogSample.ViewModels {
     public class DialogSampleViewModel : BindableBase {
@@ -20,10 +22,9 @@ namespace DialogSample.ViewModels {
         }
 
         private void ShowDialog() {
-            var dialogParameters = new DialogParameters {{"message", "Message from ShowDialog()"}};
-            _dialogService.ShowDialog("MessageDialog", dialogParameters, result => {
+            _dialogService.ShowMessageDialog("Message From ShowDialog()", result => {
                 MessageReceivedDialog = result.Result == ButtonResult.OK
-                    ? result.Parameters.GetValue<string>("myParam")
+                    ? result.Parameters.GetValue<string>("resultMessage")
                     : "Okay button not clicked";
             });
         }
