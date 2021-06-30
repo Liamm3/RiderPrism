@@ -13,7 +13,7 @@ namespace RiderPrism.Dialogs {
         }
 
         public DelegateCommand CloseDialogCommand { get; private set; }
-        public string Title => Message;
+        public string Title => "My Message Dialog";
         public event Action<IDialogResult> RequestClose;
 
         public MessageDialogViewModel() {

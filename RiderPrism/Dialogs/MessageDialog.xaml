@@ -7,23 +7,30 @@
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-       <Grid x:Name="LayoutRoot" Margin="25">
-          <Grid.RowDefinitions>
-             <RowDefinition />
-             <RowDefinition Height="Auto" />
-          </Grid.RowDefinitions>
+    <prism:Dialog.WindowStyle>
+        <Style TargetType="Window">
+            <Setter Property="Height" Value="200" />
+            <Setter Property="Width" Value="400" />
+            <Setter Property="ResizeMode" Value="NoResize" />
+            <Setter Property="prism:Dialog.WindowStartupLocation" Value="CenterScreen" />
+        </Style>
+    </prism:Dialog.WindowStyle>
 
-          <TextBlock Text="{Binding Message}"
-                     HorizontalAlignment="Stretch"
-                     VerticalAlignment="Stretch"
-                     Grid.Row="0" />
-          <Button Grid.Row="1"
-                  Command="{Binding CloseDialogCommand }"
-                  Content="OK"
-                  Width="75"
-                  HorizontalAlignment="Right"
-                  Margin="5"/>
-       </Grid>
+    <Grid x:Name="LayoutRoot" Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="{Binding Message}"
+                   HorizontalAlignment="Stretch"
+                   VerticalAlignment="Stretch"
+                   Grid.Row="0" />
+        <Button Grid.Row="1"
+                Command="{Binding CloseDialogCommand }"
+                Content="OK"
+                Width="75"
+                HorizontalAlignment="Right"
+                Margin="5" />
     </Grid>
 </UserControl>
