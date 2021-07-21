@@ -1,7 +1,5 @@
-﻿using System.Windows.Controls;
-
-namespace RiderPrism.Dialogs {
-    public partial class MessageDialog : UserControl {
+﻿namespace RiderPrism.Dialogs {
+    public partial class MessageDialog {
         public MessageDialog() {
             InitializeComponent();
         }

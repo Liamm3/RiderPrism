@@ -11,9 +11,8 @@ namespace Person.ViewModels {
         }
 
         public void OnNavigatedTo(NavigationContext navigationContext) {
-            if (navigationContext.Parameters.ContainsKey("person")) {
+            if (navigationContext.Parameters.ContainsKey("person"))
                 Person = navigationContext.Parameters.GetValue<Person>("person");
-            }
         }
 
         public bool IsNavigationTarget(NavigationContext navigationContext) {

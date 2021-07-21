@@ -2,7 +2,7 @@
 
 namespace ModuleA.ViewModels {
     public class ViewBViewModel : BindableBase {
-        private int _pageViews = 0;
+        private int _pageViews;
         private string _text = "ViewB";
 
         public int PageViews {

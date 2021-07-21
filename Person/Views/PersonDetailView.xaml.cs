@@ -1,7 +1,5 @@
-﻿using System.Windows.Controls;
-
-namespace Person.Views {
-    public partial class PersonDetailView : UserControl {
+﻿namespace Person.Views {
+    public partial class PersonDetailView {
         public PersonDetailView() {
             InitializeComponent();
         }

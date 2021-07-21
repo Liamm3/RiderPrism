@@ -1,7 +1,5 @@
-﻿using System.Windows;
-
-namespace RiderPrism.Views {
-    public partial class ShellWindowView : Window {
+﻿namespace RiderPrism.Views {
+    public partial class ShellWindowView {
         public ShellWindowView() {
             InitializeComponent();
         }

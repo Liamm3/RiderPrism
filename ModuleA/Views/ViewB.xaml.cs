@@ -1,7 +1,5 @@
-﻿using System.Windows.Controls;
-
-namespace ModuleA.Views {
-    public partial class ViewB : UserControl {
+﻿namespace ModuleA.Views {
+    public partial class ViewB {
         public ViewB() {
             InitializeComponent();
         }
