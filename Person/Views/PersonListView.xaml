@@ -28,5 +28,5 @@
             </i:Interaction.Triggers>
         </ListBox>
         <TabControl Grid.Row="1" Margin="10" prism:RegionManager.RegionName="PersonDetailsRegion" />
-   </Grid>
+    </Grid>
 </UserControl>

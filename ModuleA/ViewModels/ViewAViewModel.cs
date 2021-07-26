@@ -3,7 +3,7 @@ using Prism.Regions;
 
 namespace ModuleA.ViewModels {
     public class ViewAViewModel : BindableBase, INavigationAware {
-        private int _pageViews = 0;
+        private int _pageViews;
         private string _text = "ViewA";
 
         public int PageViews {
@@ -20,9 +20,7 @@ namespace ModuleA.ViewModels {
             PageViews++;
         }
 
-        public bool IsNavigationTarget(NavigationContext navigationContext) {
-            return true;
-        }
+        public bool IsNavigationTarget(NavigationContext navigationContext) => true;
 
         public void OnNavigatedFrom(NavigationContext navigationContext) {
         }

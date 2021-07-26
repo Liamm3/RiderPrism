@@ -2,8 +2,5 @@
 
 namespace RiderPrism.ViewModels {
     public class ShellWindowViewModel : BindableBase {
-        public ShellWindowViewModel() {
-
-        }
-   }
+    }
 }

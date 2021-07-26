@@ -8,16 +8,16 @@ using RiderPrism.Dialogs;
 using RiderPrism.Views;
 
 namespace RiderPrism {
-   public partial class App : PrismApplication {
-      protected override void RegisterTypes(IContainerRegistry containerRegistry) {
-         containerRegistry.RegisterDialog<MessageDialog, MessageDialogViewModel>();
-      }
+    public partial class App : PrismApplication {
+        protected override void RegisterTypes(IContainerRegistry containerRegistry) {
+            containerRegistry.RegisterDialog<MessageDialog, MessageDialogViewModel>();
+        }
 
-      protected override Window CreateShell() => Container.Resolve<ShellWindowView>();
+        protected override Window CreateShell() => Container.Resolve<ShellWindowView>();
 
-      protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog) {
-         moduleCatalog.AddModule<PersonModule>();
-         moduleCatalog.AddModule<DialogSampleModule>();
-      }
-   }
+        protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog) {
+            moduleCatalog.AddModule<PersonModule>();
+            moduleCatalog.AddModule<DialogSampleModule>();
+        }
+    }
 }

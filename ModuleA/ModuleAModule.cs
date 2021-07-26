@@ -1,6 +1,6 @@
-﻿using Prism.Ioc;
+﻿using ModuleA.Views;
+using Prism.Ioc;
 using Prism.Modularity;
-using ModuleA.Views;
 
 namespace ModuleA {
     public class ModuleAModule : IModule {
